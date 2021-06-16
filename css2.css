@@ -1,0 +1,12 @@
+h1
+{color:#0065FC;
+font-weight: bold;}
+h2
+{
+    font-weight: normal;
+}
+#head
+{ display: flex;
+    align-items: flex-start;
+    
+}
