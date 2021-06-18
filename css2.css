@@ -1,12 +1,63 @@
+header
+{
+    display: flex;
+   
+}
+    
+nav
+{
+    display: flex;
+    justify-content:flex-end;
+    align-items:space-evenly;
+   
+    
+}
+    
+
 h1
 {color:#0065FC;
 font-weight: bold;}
-h2
+p
 {
     font-weight: normal;
 }
-#head
-{ display: flex;
-    align-items: flex-start;
+
+
+@font-face {
+    font-family: 'ralewaythin_italic';
+    src: url('Ralewaykit/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('Ralewaykit/raleway-italic-variablefont_wght-webfont.woff') format('woff');
+   
+
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('Ralewaykit/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('Ralewaykit/raleway-variablefont_wght-webfont.woff') format('woff');
+   
+
+}
+html
+{
+    font-family: 'ralewaythin';
+    font-size: small;
+    font: bold 700;
+
+}
+
+#filtres
+{
+    display: flex;
+    justify-content: space-between;
     
+ 
+}
+span
+{
+    margin-top: 10pt;
+  border-radius:10pt;
+  border-color: blue;
+  background-color: cornflowerblue;
+
 }
