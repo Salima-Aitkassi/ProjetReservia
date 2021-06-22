@@ -5,22 +5,18 @@ justify-content: space-between;
 }
 
 nav
-
 {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
+
 p
+{padding-left: 10px;}
 
-{padding-left: 8px;}
-
-    
 #icon 
 {
     color:#0065FC ;
 }
-
 
 h1
 {color:#0065FC;
@@ -37,7 +33,6 @@ p
     src: url('Ralewaykit/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
          url('Ralewaykit/raleway-italic-variablefont_wght-webfont.woff') format('woff');
    
-
 }
 
 @font-face {
@@ -45,24 +40,22 @@ p
     src: url('Ralewaykit/raleway-variablefont_wght-webfont.woff2') format('woff2'),
          url('Ralewaykit/raleway-variablefont_wght-webfont.woff') format('woff');
    
-
 }
 html
 {
     font-family: 'ralewaythin';
     font-size: small;
     font: bold 700;
-
 }
 
 
 #filtres
-
 {
     display: flex;
     justify-content: space-between;
     
 }
+
 p
 { font-weight: bold;}
 
@@ -75,6 +68,7 @@ span
   background-color: #DEEBFF;
   color:#0065FC;
  }
-@media screen {
-    
-}
+
+ @media only screen and 
+ (min-width:480px) and (max-width:780px)
+ {}
