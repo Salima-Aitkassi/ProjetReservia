@@ -9,13 +9,18 @@ nav
     display: flex;
     justify-content: space-between;    
 }
+nav p:hover 
+{
+    color: rgb(12, 26, 224);
+}
 
 p
 {padding-left: 10px;}
 
 #icon 
 {
-    color:#0065FC ;
+    color:#0065FC;
+    size:60px;
 }
 
 h1
@@ -51,24 +56,54 @@ html
 
 #filtres
 {
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     
 }
 
 p
-{ font-weight: bold;}
+{  
+    font-weight: bold;}
 
-span
+/*form
+{ 
+    border-top-right-radius: solid;
+    border-radius: 20px;
+border-color: #DEEBFF;
+background-color: #DEEBFF;} */
+
+.button-recherche
+{ background-color: #0065FC;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;}
+
+form i 
 {
-    margin-top: 15pt;
-    border: solid;
+    background-color: grey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 1%;
+}
+
+#filtres span
+{
+    margin-top:3%;
+    border: 2px solid grey;
   border-radius:30px;
-  border-color:#DEEBFF;
-  background-color: #DEEBFF;
+  border-color: grey;
   color:#0065FC;
  }
 
+#filtres i
+{
+ background-color: #adadad;
+ border-radius:200px;
+}
+    
+
  @media only screen and 
- (min-width:480px) and (max-width:780px)
+ (min-width:480px) and (max-width:1024px)
  {}
+
+ 
