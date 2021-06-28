@@ -1,3 +1,4 @@
+/* Bannière */
 header
 { display: flex;
     align-items: center;
@@ -13,14 +14,13 @@ nav p:hover
 {
     color: rgb(12, 26, 224);
 }
-
 p
 {padding-left: 10px;}
 
-#icon 
+#icon
 {
     color:#0065FC;
-    size:60px;
+   
 }
 
 h1
@@ -32,6 +32,7 @@ p
     font-weight: normal;
 }
 
+/*Ma Police
 
 @font-face {
     font-family: 'ralewaythin_italic';
@@ -44,27 +45,66 @@ p
     font-family: 'ralewaythin';
     src: url('Ralewaykit/raleway-variablefont_wght-webfont.woff2') format('woff2'),
          url('Ralewaykit/raleway-variablefont_wght-webfont.woff') format('woff');
-   
-}
-html
-{
-    font-family: 'ralewaythin';
-    font-size: small;
-    font: bold 700;
+         
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('raleway-black-webfont.woff2') format('woff2'),
+         url('raleway-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('raleway-black-webfont.woff2') format('woff2'),
+         url('raleway-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+   */
+
+   @font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff');
+    
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff');
+    
+
+}
+
+
+html
+{
+    font-family: 'ralewayregular';
+    font-size: small;
+    font-weight: bold;
+}
+
+/* Partie filtres */
 
 #filtres
 {
     font-weight: bold;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 3px;
+    align-content: flex-start;
     
 }
 
 p
 {  
-    font-weight: bold;}
+    font-weight: bold;
+font-size: 1rem;}
 
 /*form
 { 
@@ -73,37 +113,71 @@ p
 border-color: #DEEBFF;
 background-color: #DEEBFF;} */
 
+.input
+{
+    width: 150rem;
+}
+
 .button-recherche
 { background-color: #0065FC;
 border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;}
+border-bottom-right-radius: 10px;
+width: 10rem;
+height: 2rem;
+
+}
 
 form i 
 {
-    background-color: grey;
+    background-color: #DEEBFF;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 1%;
+    
+}
+
+#filtres span:hover
+{
+    color: mediumblue;
 }
 
 #filtres span
 {
     margin-top:3%;
-    border: 2px solid grey;
-  border-radius:30px;
-  border-color: grey;
-  color:#0065FC;
+    border: 1px solid #DEEBFF;
+    border-radius: 35px;
+    border-color: grey;
+    color:#0065FC;
+    padding: 1%;
+  
  }
 
 #filtres i
 {
- background-color: #adadad;
- border-radius:200px;
+ background-color: #DEEBFF ;
+ background-size: auto;
+ border-radius:  400px;
+ padding: 0,8%;
+
+font-size: 20px;
 }
     
-
+/* Responsive Tablette et mobile */
  @media only screen and 
  (min-width:480px) and (max-width:1024px)
  {}
-
+ @media only screen and 
+ (min-width:300px) and (max-width:600px)
+{}
  
+#info
+{
+    margin-top: 2%;
+}
+
+#info i
+{
+    color: mediumblue;
+    border-radius: solid 60px blue;
+    
+}
