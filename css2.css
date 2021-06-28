@@ -181,3 +181,10 @@ font-size: 20px;
     border-radius: solid 60px blue;
     
 }
+
+/* Partie section*/
+
+#stars i
+{
+    color:#0065FC;
+}
