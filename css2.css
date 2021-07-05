@@ -95,6 +95,7 @@ html
 {
     font-weight: bold;
     display: flex;
+    justify-content: center;
     padding: 5px;
    
 
@@ -123,6 +124,8 @@ input
 border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 padding:1%;
+font-style: bold;
+color: white;
 
 }
 
@@ -131,7 +134,7 @@ form i
     background-color: #DEEBFF;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding: 2%;
+    padding: 1.5%;
     
 }
 
@@ -139,6 +142,7 @@ form i
 {
     color: mediumblue;
 }
+
 
 #filtres span
 {
@@ -160,6 +164,11 @@ font-size: 20px;
 }
     
 /* Responsive Tablette et mobile */
+#wrapper {width:95%;  margin: auto; }
+
+#header {width:100%; }
+
+
  @media 
  (min-width:600px) and (max-width:1024px)
  {}
