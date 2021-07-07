@@ -14,10 +14,15 @@ header
 justify-content: space-between;
 }
 
+nav a
+{color:black;
+padding: 3%;}
+
 nav
 {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
+ 
 }
 nav p:hover 
 {
@@ -224,10 +229,11 @@ box-shadow:darkgray 5px 5px 5px 5px;
 }
 
 .bloc1 figure img 
-{ width: 140px;
-height: 80px;
+{ width: 200px;
+height: 120px;
 border: solid 1px;
-border-radius: 20px;
+border-top-left-radius:  20px;
+border-top-right-radius:20px;
 border-color:#FFFFFF;
 }
 
@@ -236,4 +242,6 @@ figure
 border-color: #FFFFFF;
 background-color: #FFFFFF;
 border-radius: 10%;
+padding: 1%;
+justify-content: center;
 }
