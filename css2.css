@@ -249,3 +249,16 @@ padding: 1%;
 justify-content: center;
 align-content: space-between;
 }
+
+section figure img
+
+{width: 200px;
+    height: 120px;
+    border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+section 
+{
+    display: flexbox;
+}
