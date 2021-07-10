@@ -6,7 +6,6 @@
 }
 
 
-
 /* Bannière */
 header
 { display: flex;
@@ -24,18 +23,18 @@ nav
     justify-content: space-between;   
  
 }
-nav p:hover 
+nav a:hover 
 {
-    color: rgb(12, 26, 224);
+    color: rgb(0, 16, 245);
 }
 p
 {padding-left: 10px;}
 
-#icon
+/*#icon
 {
     color:#0065FC;
    
-}
+}*/
 
 h1
 {color:#0065FC;
@@ -106,13 +105,54 @@ html
 /* Partie filtres */
 
 #filtres
+    {
+        width: 80%;
+        margin-top: 2%;
+        display: flex;
+    }
+    #filtres p
+    {
+        font-weight: bold;
+        margin-right: 3%;
+        padding:1em;
+    }
+    .filtreLink
+    {border: 1px solid #DEEBFF;
+        border-radius: 3em;
+        color:black;
+        min-width: 20%;
+        height: 15%;
+        margin-left: 2%;
+        display: flex;
+    }
+    a
+     { 
+text-decoration: none;
+    }
+    #filtres i
+    {
+        color: #0065FC;
+        background-color: #DEEBFF;
+        border-radius: 100px;
+        padding: 4%;
+        font-size: 2em;
+        margin-left: -1px;
+        
+    }
+    .filtreText
+    {
+        padding:  10px 0px 0px 10px;
+       
+    }
+
+/*#filtres
 {
     font-weight: bold;
     display: flex;
     align-items: center;
     padding: 5px;
       
-}
+}*/
 
 p
 {  
@@ -151,7 +191,7 @@ form i
 }
 
 
-#filtres span:hover
+/*#filtres span:hover
 {
     color: mediumblue;
 }
@@ -174,7 +214,7 @@ form i
  border-radius:  100px;
  padding: 5%;
 font-size: 20px;
-}
+} */
     
 /* Responsive Tablette et mobile */
 
@@ -258,7 +298,19 @@ section figure img
 border-top-left-radius: 20px;
 }
 
-section 
-{
-    display: flexbox;
+/*.icon i
+{ float: right;
+    margin: 0 5% 3% 0;
 }
+.icon h2
+{
+margin: 1%;
+}*/
+.icon
+{
+        margin: 1%;
+
+}
+.icon i 
+{ FLOAT: RIGHT;
+    margin-top: -19px;}
