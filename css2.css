@@ -280,6 +280,7 @@ border-top-right-radius:20px;
 border-color:#FFFFFF;
 }
 
+
 figure
 { border: 1px solid;
 border-color: #FFFFFF;
@@ -352,3 +353,8 @@ section h2
 .bloc2 figcaption
 { width: 60%;
 float: right;}
+
+
+section A figure img
+{border: none;
+border-radius: 20%;}
