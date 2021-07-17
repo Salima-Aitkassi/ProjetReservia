@@ -365,12 +365,16 @@ width: 100%;}
 
 /* Footer */
 
+footer
+{ background-color: #f2f2f2;} 
+
 #piedpage
-{background-color:#f2f2f2;
+{
 display: flex;
 justify-content: space-between;
-width: 100%;
+width: 80%;
 padding: 2%
+
 }
 
 .blocfoot h3
