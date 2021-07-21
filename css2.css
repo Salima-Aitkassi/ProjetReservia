@@ -281,7 +281,7 @@ object-fit: cover;
 }
 
 
-figure
+.bloc1 figure , #bloc2 figure 
 { border: 1px solid;
 border-color: #FFFFFF;
 background-color: #FFFFFF;
@@ -289,7 +289,11 @@ border-radius: 10%;
 padding: 1%;
 justify-content: center;
 align-content: space-between;
-width:30%;
+
+}
+.bloc1 figure
+{
+    width: 30%;
 }
 
 section figure  img
@@ -358,12 +362,15 @@ font-weight: bold;}
 
 /* Partie Activités à Marseille */
 
+#bloc3 {
+    display: flex;
+}
 
-#bloc3 figure img
+.bloc3 figure img
 { border-radius: 20%;
 width: 100%;}
 
-.A 
+.A .box-a
 {align-content: flex-start;
 flex-direction: column;}
 
