@@ -246,8 +246,13 @@ font-size: 20px;
 
 #info i
 {
-    color: mediumblue;
-    border-radius: solid 60px blue;
+     color: #0065fc;
+    border-radius: 100%;
+    border-color: grey;
+    border: 0.8px solid;
+    background-color: white;
+    padding: 1%;
+    font-size: 7px;
     
 }
 
@@ -372,12 +377,14 @@ font-weight: bold;}
 
 #bloc3 {
     display: flex;
+    padding: 1%;
 }
 
 #bloc3 figure img
-{ border-radius: 20%;
+{ border-radius: 11%;
 width: 100%;
  }
+
 
 
 
@@ -387,10 +394,26 @@ flex-direction: column;}
 
 #bloc3 .photo img
 {
-    height: 220px;
+    height: 250px;
+    padding: 5%;
 }
+
+.box-a
+{
+    height: 130px;
+    padding: 2%;
+}
+.A 
+{ padding: 1%;}
+
 /* Footer */
 
+#bloc3 figure figcaption
+{
+    border-radius: solid 4%;
+    background-color:white;
+    
+}
 footer
 { background-color: #f2f2f2;} 
 
