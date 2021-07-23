@@ -246,7 +246,7 @@ font-size: 20px;
 
 #info i
 {
-     color: #0065fc;
+     color:#DEEBFF;
     border-radius: 100%;
     border-color: grey;
     border: 0.8px solid;
@@ -408,10 +408,11 @@ flex-direction: column;}
 
 /* Footer */
 
-#bloc3 figure figcaption
+.activites-card figcaption
 {
     border-radius: solid 4%;
-    background-color:white;
+    background-color: pink;
+    
     
 }
 footer
