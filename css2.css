@@ -106,9 +106,26 @@ html
 {
     font-family: 'ralewayregular';
     font-size: small;
-    font-weight: bold;
-}
+    font-weight: bold;   }
 
+
+
+.bloc1 figure :hover
+{
+    cursor: pointer;
+transform: scale(1.3);
+ 
+}
+#bloc2 figure :hover
+{
+    cursor: pointer;
+    transform: scale(1.3);
+} 
+#bloc3 figure :hover
+{
+    cursor: pointer;
+    transform: scale(1.3);
+}
 /* Partie filtres */
 
 #filtres
@@ -135,6 +152,7 @@ html
     a
      { 
 text-decoration: none;
+padding: 0;
     }
     #filtres i
     {
