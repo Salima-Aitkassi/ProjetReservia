@@ -140,6 +140,13 @@ transform: scale(1.1);
         margin-top: 2%;
         display: flex;
     }
+    
+    .filtreLink:hover
+
+         {cursor: pointer;
+transform: scale(1.1);}
+    
+   
     #filtres p
     {
         font-weight: bold;
@@ -176,7 +183,8 @@ padding: 0;
        
     }
 .filtreLink:hover
-{color: #0065FC;}
+{color: #0065FC;
+}
 /*#filtres
 {
     font-weight: bold;
