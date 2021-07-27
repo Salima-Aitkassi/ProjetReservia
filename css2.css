@@ -41,7 +41,7 @@ nav
 nav a:hover 
 {
     color: rgb(0, 16, 245);
-    border-top: solid 1px #0065FC;
+    border-top: solid 2px #0065FC;
 }
 .inscrire
 {
