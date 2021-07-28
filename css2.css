@@ -59,11 +59,13 @@ p
 
 h1
 {color:#000000;
-font-weight: bold;}
+font-weight: bold;
+padding: 1%;}
 
 p
 {
     font-weight: normal;
+    padding: 1%;
 }
 
 /*Ma Police
@@ -119,7 +121,7 @@ p
 html
 {
     font-family: 'ralewayregular';
-    font-size: small;
+    font-size: 13px;
     font-weight: bold;   }
 
 
@@ -265,10 +267,11 @@ font-size: 20px;
     padding-bottom:2% ;
 }
 
+
 #info i
 {
     
-    border-radius: 100%;
+    border-radius: 50%;
     border-color: #DEEBFF;
     border: 0.8px solid;
     background-color: white;
@@ -308,6 +311,10 @@ background-color: #f2f2f2;
     justify-content: space-between;
     
 }
+.bloc1 figcaption 
+{
+    padding: 1%;
+}
 
 .bloc1 figure img 
 { width: 100%;
@@ -328,6 +335,7 @@ border-radius: 10%;
 padding: 1%;
 justify-content: center;
 align-content: space-between;
+box-shadow: 0 0 20px #d3d3d3;
 
 }
 .bloc1 figure
@@ -337,13 +345,13 @@ align-content: space-between;
 
 #bloc2 figure img
 {
-       border-bottom-left-radius: 20px;
-border-top-left-radius: 20px;
+       border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
 }
 section figure  img
 
 {width: 40%;
-    height: 100px;
+    height: 96px;
     float:left;
 object-fit: cover;
 
