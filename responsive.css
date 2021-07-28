@@ -6,8 +6,7 @@
  {  
      body { max-width: 1000px; }
  }
-
- /*@media (min-width: 890px) and (max-width: 992px) 
+ /* @media (min-width: 890px) and (max-width: 992px) 
      { body {
          max-width: 900px;
      }
@@ -19,8 +18,6 @@
      }*/
 
  
- @media (min-width:400px) and 
-  (max-width:600px)
-{
-    /*body { max-width: 415px;}
-    */
+
+    /*body { max-width: 415px */
+ @media (min-width:400px)
