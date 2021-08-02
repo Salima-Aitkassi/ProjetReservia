@@ -287,6 +287,8 @@ i
 
 /* Partie section*/
 
+
+
 #stars i
 {
     color:#0065FC;
@@ -331,7 +333,7 @@ object-fit: cover;
 { border: 1px solid;
 border-color: #FFFFFF;
 background-color: #FFFFFF;
-border-radius: 10%;
+border-radius: 15px;
 padding: 1%;
 justify-content: center;
 align-content: space-between;
@@ -351,10 +353,14 @@ border-top-left-radius: 10px;
 section figure  img
 
 {width: 40%;
-    height: 96px;
+    height: 90px;
     float:left;
 object-fit: cover;
 
+}
+#bloc2 #stars
+{
+    padding: 5%;
 }
 
 /*.icon i

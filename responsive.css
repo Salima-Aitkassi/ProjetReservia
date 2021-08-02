@@ -25,18 +25,30 @@
 {
     #Resultat { 
         flex-direction: column-reverse;
+        padding: 5%;
     }
+    #Resultat .H
+    {
+        background-color: white;
+    }
+
     .P ,.H {
         width: 100%;
+
     }
+.P , .H img
+{ object-position: center;
+}
+    
     .bloc1
     {
         flex-direction: column;
+
     }
 
     .bloc1 figure {
             width: 100%;
-    
+            
     }
 
 
