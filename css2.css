@@ -360,7 +360,7 @@ object-fit: cover;
 }
 #bloc2 #stars
 {
-    padding: 5%;
+    padding: 6%;
 }
 
 /*.icon i
@@ -430,12 +430,14 @@ font-weight: bold;}
 {
 height: 100%;
 margin-right: 1em;
+width:23%;
 }
 
 #bloc3 .A
 {
     height: 45%;
     margin-right: 1em;
+    width: 25%;
 }
 
 #bloc3 figure img
