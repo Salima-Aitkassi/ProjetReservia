@@ -34,6 +34,11 @@ nav
     {
         flex-wrap: wrap;
         display: flex;
+        
+    }
+    #filtreText { 
+        font-weight: 10px;
+        border: solid 1px;
     }
     #Resultat { 
         flex-direction: column-reverse;

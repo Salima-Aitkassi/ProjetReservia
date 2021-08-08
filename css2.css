@@ -277,6 +277,7 @@ font-size: 20px;
     background-color: white;
     padding: 1%;
     font-size: 7px;
+    color: blue;
 }
 
 i
@@ -338,6 +339,7 @@ padding: 1%;
 justify-content: center;
 align-content: space-between;
 box-shadow: 0 0 20px #d3d3d3;
+
 
 }
 .bloc1 figure
