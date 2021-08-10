@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css2.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="https://kit.fontawesome.com/08e58fb1f0.js" crossorigin="anonymous"></script>
@@ -12,15 +13,19 @@
 
 <body>
     <header>
-        <img src="Reservia.svg" alt="logo">
+        <div class="logo">
+            <img src="Reservia.svg" alt="logo">
+        </div>
 
         <nav>
 
             <a href="#Hebergements"> Hébergements</a>
             <a href="#Activite"> Activités</a>
-            <a class=" inscrire" href="#inscrire"> S'inscrire </a>
+
 
         </nav>
+        <a class=" inscrire" href="#inscrire"> S'inscrire </a>
+
     </header>
 
     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -39,10 +44,12 @@
 
         <p>Filtres</p>
 
-        <a href="#" class="filtreLink" title="Économique"> <i class="fas fa-money-bill"></i><span class="filtreText">
+        <a href="#" class="ecofam filtreLink" title="Économique"> <i class="fas fa-money-bill"></i><span
+                class="filtreText">
                 Économique
             </span></a>
-        <a href="#" class="filtreLink" title="Familial"> <i class="fas fa-child"></i><span class="filtreText"> Familial
+        <a href="#" class="ecofam filtreLink " title="Familial"> <i class="fas fa-child"></i><span class="filtreText">
+                Familial
             </span></a>
         <a href="#" class="filtreLink" title="Romantique"> <i class="fas fa-heart"></i><span class="filtreText">
                 Romantique

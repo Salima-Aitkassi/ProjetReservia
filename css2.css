@@ -22,7 +22,14 @@ header
     align-items: center;
 justify-content: space-between;
 }
-
+.logo
+{
+    width: 70%;
+}
+.inscrire
+{
+    width: 2%;
+}
 a 
 { color: #000000;
     text-decoration: none;
@@ -36,6 +43,8 @@ nav
 {
     display: flex;
     justify-content: space-between;   
+    width: 20%;
+    text-align: right;
  
 }
 nav a:hover 
