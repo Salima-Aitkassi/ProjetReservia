@@ -360,13 +360,16 @@ box-shadow: 0 0 20px #d3d3d3;
 {
        border-bottom-left-radius: 10px;
 border-top-left-radius: 10px;
+margin-top: 3px;
+margin-right: 5px;
 }
 section figure  img
 
-{width: 40%;
+{width: 75px;
     height: 90px;
     float:left;
 object-fit: cover;
+
 
 }
 #bloc2 #stars
