@@ -29,6 +29,7 @@
     header
     {
         flex-wrap: wrap;
+        
 
     }
     header h1
@@ -53,6 +54,8 @@ border-top: none;}
 
 .logo
 { width: 50%;}
+
+
 
 .inscrire { width: 20%;}
 
@@ -169,5 +172,5 @@ border-top: none;}
     {
         font-size: 8px;
         padding: 4%;
-    }
-}
+    }}
+    
