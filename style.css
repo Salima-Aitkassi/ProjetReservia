@@ -1,0 +1,538 @@
+/*html , body
+{
+    height: 100%;
+    padding: 0%;
+    margin:0%;
+}*/
+*,::before,::after{
+
+    margin: 0;
+    padding: 0.1%;
+    box-sizing: border-box;
+
+}
+body
+{ width:100%;
+margin-right: auto;
+margin-left: auto;}
+
+/* Bannière */
+header
+{ display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.logo
+{
+    width: 70%;
+}
+.inscrire
+{
+    width: 2%;
+}
+a 
+{ color: #000000;
+    text-decoration: none;
+}
+nav a
+{color:black;
+padding: 3%;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;   
+    width: 20%;
+    text-align: right;
+ 
+}
+nav a:hover 
+{
+    color: rgb(0, 16, 245);
+    border-top: solid 2px #0065FC;
+}
+.inscrire
+{
+    color: #0065FC;
+}
+
+p
+{padding-left: 10px;}
+
+/*#icon
+{
+    color:#0065FC;
+   
+}*/
+
+h1
+{color:#000000;
+font-weight: bold;
+padding: 1%;}
+
+p
+{
+    font-weight: normal;
+    padding: 1%;
+}
+
+/*Ma Police
+
+@font-face {
+    font-family: 'ralewaythin_italic';
+    src: url('Ralewaykit/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('Ralewaykit/raleway-italic-variablefont_wght-webfont.woff') format('woff');
+   
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('Ralewaykit/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('Ralewaykit/raleway-variablefont_wght-webfont.woff') format('woff');
+         
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('raleway-black-webfont.woff2') format('woff2'),
+         url('raleway-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('raleway-black-webfont.woff2') format('woff2'),
+         url('raleway-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+   */
+
+   @font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff');
+    
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff');
+    
+
+}
+
+
+html
+{
+    font-family: 'ralewayregular';
+    font-size: 13px;
+    font-weight: bold;   }
+
+
+
+.bloc1 figure:hover,#bloc2 figure:hover,#bloc3 figure:hover
+{
+    cursor: pointer;
+transform: scale(1.1);
+ 
+}
+
+
+/* Partie filtres */
+
+#filtres
+    {
+        width: 80%;
+        margin-top: 2%;
+        display: flex;
+    }
+    
+    .filtreLink:hover
+
+         {cursor: pointer;
+transform: scale(1.1);}
+    
+   
+    #filtres p
+    {
+        font-weight: bold;
+        margin-right: 3%;
+        padding:1em;
+    }
+    .filtreLink
+    {border: 1px solid #DEEBFF;
+        border-radius: 3em;
+        color:black;
+        min-width: 20%;
+        height: 15%;
+        margin-left: 2%;
+        display: flex;
+    }
+    a
+     { 
+text-decoration: none;
+padding: 0;
+    }
+    #filtres i
+    {
+        color: #0065FC;
+        background-color: #DEEBFF;
+        border-radius: 100px;
+        padding: 4%;
+        font-size: 2em;
+        margin-left: -1px;
+        
+    }
+    .filtreText
+    {
+        padding:  10px 0px 0px 10px;
+       
+    }
+.filtreLink:hover
+{color: #0065FC;
+}
+/*#filtres
+{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+      
+}*/
+
+p
+{  
+    font-weight: bold;
+font-size: 1rem;}
+
+/*form
+{ 
+    border-top-right-radius: solid;
+    border-radius: 20px;
+border-color: #DEEBFF;
+background-color: #DEEBFF;} */
+
+input
+{
+    padding: 1%;
+}
+
+.button-recherche
+{ background-color: #0065FC;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+padding:1%;
+font-weight: bold;
+color: white;
+border: none;
+
+}
+.button-recherche i {display: none;
+color: white;}
+
+#icon-map 
+{
+    background-color: #DEEBFF;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 1.3%;
+     
+}
+form {display: flex;}
+
+/*#filtres span:hover
+{
+    color: mediumblue;
+}
+
+#filtres span
+{
+   
+    border: 1px solid #DEEBFF;
+    border-radius: 35px;
+    border-color: grey;
+    color:#0065FC;
+    width: 17%;
+    
+ }
+
+
+#filtres i
+{
+ background-color: #DEEBFF ;
+ border-radius:  100px;
+ padding: 5%;
+font-size: 20px;
+} */
+    
+
+#info
+{
+    
+    padding-top: 3%;
+    padding-bottom:2% ;
+}
+
+
+#info i
+{
+    
+    border-radius: 50%;
+    border-color: #DEEBFF;
+    border: 0.8px solid;
+    background-color: white;
+    padding: 1%;
+    font-size: 7px;
+    color: blue;
+}
+
+i
+{
+    color: #000000;
+    padding: 1%;
+}
+
+/* Partie section*/
+
+
+
+#stars i
+{
+    color:#0065FC;
+      
+}
+
+.H ,.P
+{display: flex;
+flex-direction:column;
+width:100%;
+border-radius: 20px;
+background-color: #f2f2f2;
+
+
+}
+ 
+.bloc1
+{
+    display:flex;
+    flex-direction: row;
+    padding: 3%;
+    justify-content: space-between;
+    
+}
+.bloc1 figcaption 
+{
+    padding: 1%;
+}
+
+.bloc1 figure img 
+{ width: 100%;
+height: 100px;
+border: solid 1px;
+border-top-left-radius:  20px;
+border-top-right-radius:20px;
+border-color:#FFFFFF;
+object-fit: cover;
+}
+
+
+.bloc1 figure , #bloc2 figure 
+{ border: 1px solid;
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+border-radius: 15px;
+padding: 1%;
+justify-content: center;
+align-content: space-between;
+box-shadow: 0 0 20px #d3d3d3;
+
+
+}
+.bloc1 figure
+{
+    width: 30%;
+}
+
+#bloc2 figure img
+{
+       border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+margin-top: 3px;
+margin-right: 5px;
+}
+section figure  img
+
+{width: 75px;
+    height: 90px;
+    float:left;
+object-fit: cover;
+
+
+}
+#bloc2 #stars
+{
+    padding: 6%;
+}
+
+/*.icon i
+{ float: right;
+    margin: 0 5% 3% 0;
+}
+.icon h2
+{
+margin: 1%;
+}*/
+.icon
+{
+padding: 6%;
+
+}
+.icon i 
+{ FLOAT: RIGHT;
+    margin-top: -19px;}
+
+  #Resultat
+  { width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }  
+ .H
+ {
+     width: 70%;
+ }
+ .P 
+ { width: 25%;
+}
+
+section h2 
+{ padding: 1em 0 0 1em ;
+}
+
+.icon h2
+{padding-left: 0}
+
+.P figure 
+{
+    margin-bottom:3EM ; 
+    margin-left: 12px;
+    width: 90%;
+    height: 102px;
+    
+}
+
+
+.bloc2 figcaption
+{ width: 60%;
+float: right;
+font-weight: bold;}
+
+
+/* Partie Activités à Marseille */
+
+#bloc3 {
+
+    display: flex;
+    height: 300px;
+    margin: 2em 0;
+
+}
+ 
+#bloc3 .photo
+{
+height: 100%;
+margin-right: 1em;
+width:23%;
+}
+
+#bloc3 .A
+{
+    height: 45%;
+    margin-right: 1em;
+    width: 25%;
+}
+
+#bloc3 figure img
+{ border-radius: 15px 15px 0 0;
+width: 100%;
+padding-bottom: 7px;
+height: 110px;
+/*height: 85%;
+padding: 0%;*/
+ }
+
+#bloc3 figure
+{
+    padding: 0%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #d3d3d3;
+    height: 100%;
+}
+
+#bloc3 figcaption
+{
+    height: 15%;
+    padding-left: 1em;
+    font-size: 12px;
+}
+.A figure
+{
+    margin-bottom: 2em;
+}
+/*.A .box-a
+{align-content: flex-start;
+flex-direction: column;}*/
+
+#bloc3 .photo img
+{
+    height: 90%;
+    padding-bottom: 5px;
+}
+
+
+/*.box-a
+{
+    height: 130px;
+    padding: 2%;
+}
+.A 
+{ padding: 1%;}*/ 
+
+/* Footer */
+
+
+footer
+{ background-color: #f2f2f2;
+} 
+
+
+#piedpage
+{
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 2%
+}
+
+.blocfoot
+{width: 30%;
+}
+
+
+
+.blocfoot h3
+{font-weight: bold;
+display: flex;
+justify-content: flex-start;
+width: 100%;
+font-size: 1.5em;
+}
+
+.blocfoot p
+{ display: flex;
+padding: 1%;}
