@@ -1,6 +1,6 @@
 /* Responsive Tablette et mobile */
 
- @media 
+/* @media 
  (min-width:1200px)
  
  {  
@@ -24,7 +24,13 @@
 
 
 @media (max-width:1200px)
+
+
 {
+ html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     header
     {
@@ -44,9 +50,12 @@ nav
     text-align: center;
 
 }
+.button-recherche i { width: 35px;}
+.button-recherche i { display : block
 
-.button-recherche i { display : block}
-.button-recherche span { display: none;}
+}
+.button-recherche span { display: none;
+}
 
 nav a 
 { border-bottom: solid 1px grey;
@@ -61,6 +70,18 @@ border-top: none;}
 input{ width: 320px;
 padding: 2%;}
 
+
+.bloc1 figure:hover,#bloc2 figure:hover,#bloc3 figure:hover
+{
+    cursor: pointer;
+transform: scale(none);
+ 
+}
+
+.bloc1 figure img 
+{
+    height: 109px;
+}
 
 .inscrire { width: 20%;}
 
@@ -133,6 +154,11 @@ padding: 2%;}
         width: 95%;
         height: 100px;
     }
+
+    section figure img 
+     {
+         height: 91px;
+     }
     
 
     #bloc3 
@@ -176,3 +202,47 @@ padding: 2%;}
         padding: 4%;
     }}
     
+@media (min-width:259px) and (max-width:960px)
+{
+ html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+
+.button-recherche i { display : block}
+.button-recherche span { display: none;
+width: 40px;}
+
+.bloc1 figure:hover,#bloc2 figure:hover,#bloc3 figure:hover
+{
+    cursor: pointer;
+transform: scale(none);
+ 
+}
+
+    #filtres
+    {
+        width: 119%;
+    }
+    #bloc2 #stars
+    { padding:2%}
+
+    #bloc2 figure 
+    {
+        height: 105px;
+        
+    }
+    
+    #bloc3
+    {padding: 3%;}
+
+    #bloc3 .photo
+    {
+        padding-bottom: 5%;
+    }
+footer 
+{
+    height: 200px;
+}
+}
