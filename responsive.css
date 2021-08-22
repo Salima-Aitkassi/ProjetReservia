@@ -58,7 +58,7 @@ nav
 }
 
 nav a 
-{ border-bottom: solid 1px grey;
+{ border-bottom: solid 2px lightgrey;
 width: 50%;}
 nav a:hover
 { border-bottom: solid 1px blue;
@@ -231,7 +231,7 @@ nav
 
 
 nav a 
-{ border-bottom: solid 1px grey;
+{ border-bottom: solid 2px lightgrey;
 width: 50%;}
 nav a:hover
 { border-bottom: solid 1px blue;
@@ -242,10 +242,16 @@ border-top: none;}
 
 .inscrire { width: 20%;}
 
-
+.button-recherche i { width: 25px;}
 .button-recherche i { display : block}
 .button-recherche span { display: none;
-width: 40px;}
+width: 40px; }
+
+input 
+
+{
+    width: 332px;
+}
 
 .bloc1 figure:hover,#bloc2 figure:hover,#bloc3 figure:hover
 {
