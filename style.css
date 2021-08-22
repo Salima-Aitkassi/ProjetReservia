@@ -61,6 +61,7 @@ nav a:hover
 .inscrire
 {
     color: #0065FC;
+    width: 5%;
 }
 
 p
@@ -456,8 +457,9 @@ font-weight: bold;}
 #bloc3 {
 
     display: flex;
-    height: 380px;
+    height: 450px;
     margin: 2em 0;
+    padding: 2%;
 
 }
  
