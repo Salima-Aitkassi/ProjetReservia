@@ -23,7 +23,7 @@
  /*@media (min-width:400px)*/
 
 
-@media (min-width:780px) and (max-width:900px)
+@media /*(min-width:780px) and */(max-width:690px)
 
 
 {
@@ -184,7 +184,10 @@ transform: none;
         height: 140px;
         width: 100%;
     }
-
+footer 
+{
+    height: 300px;
+}
     footer #piedpage
     {
         flex-direction: column;
@@ -204,7 +207,7 @@ width: 200px;}
         width: 200px;
     }}
     
-@media (min-width:259px) and (max-width:510px)
+@media (min-width:259px) /*and (max-width:510px)*/
 {
  html, body {
         max-width: 100%;
@@ -322,9 +325,13 @@ transform: none;
     .bloc1 figure 
     {
             width: 100%;
-            height: 215px;
+            height: 200px;
             margin: 8px;
     }
+
+    .bloc1 figure img 
+    { padding-bottom: 2%;
+    height: 115px;}
     
     #bloc2 figure {
         width: 95%;
@@ -361,6 +368,7 @@ transform: none;
         width: 100%;
         height: 35%;
         padding-bottom: 5%;
+        margin-left: 1%;
     }
     #bloc3 .A
     {
@@ -383,7 +391,7 @@ transform: none;
     }
 footer 
 {
-    height: 230px;
+    height: 170px;
 }
 footer .blocfoot p 
 {
@@ -405,7 +413,7 @@ footer .blocfoot p
 width: 200px;}
 
 }
-@media (min-width:510px) and (max-width:780px)
+/*@media (min-width:510px) and (max-width:780px)
 {
     
  html, body {
@@ -527,7 +535,7 @@ transform: none;
     .bloc1 figure 
     {
             width: 100%;
-            height: 175px;
+            height: 195px;
             margin: 8px;
     }
     
@@ -537,12 +545,12 @@ transform: none;
     }
     #bloc2 .stars
     { 
-        padding: 4%;
+        padding: 1%;
     }
 
     section figure img 
      {
-         height: 91px;
+         height: 81px;
      }
     
 
@@ -556,6 +564,8 @@ transform: none;
     {
         width: 100%;
         height: 35%;
+        padding-bottom: 5%;
+        margin:1em;
     }
     #bloc3 .A
     {
@@ -589,4 +599,4 @@ width: 200px;}
         width: 200px;
     }
 
-}
+}*/
