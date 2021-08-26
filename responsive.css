@@ -3,42 +3,48 @@
 {
 html, body {
         max-width: 100%;
-        overflow-x: hidden;
+       
     }
-    header
+header
     {
         flex-wrap: wrap;
-        
-
     }
-    header h1
+
+header h1
     {
-        font-size: 10px;
+         font-size: 10px;
     }
 nav
-{
+{   
     flex-wrap: wrap-reverse;
     order: 2;
     width: 100%;
     text-align: center; }
 
 
-
 nav a 
-{ border-bottom: solid 2px lightgrey;
-width: 50%;}
+{ 
+    border-bottom: solid 2px lightgrey;
+    width: 50%;
+}
+
 nav a:hover
-{ border-bottom: solid 1px blue;
-border-top: none;}
+{ 
+    border-bottom: solid 1px blue;
+    border-top: none;}
 
 .logo
-{ width: 50%;}
+{ 
+    width: 50%;}
 
-.inscrire { width: 20%;}
+.inscrire 
+{ 
+    width: 20%;}
 
 .button-recherche i { width: 25px;}
 .button-recherche i { display : block}
-.button-recherche span { display: none;
+.button-recherche span 
+{ display: none;
 width: 40px; }
 
 input 
@@ -63,7 +69,7 @@ transform: none;
         
     }
     #filtreText { 
-        font-weight: 10px;
+        font-size: 10px;
        
     }
     .filtreLink
@@ -100,7 +106,7 @@ transform: none;
 
     .P ,.H {
         width: 100%;
-        padding: 3;
+        padding: 3%;
         
     }
 .P , .H img
@@ -182,7 +188,7 @@ transform: none;
     }
 footer 
 {
-    height: 180px;
+    height: auto;
 }
 footer .blocfoot p 
 {
@@ -214,7 +220,7 @@ width: 200px;}
 {
 html, body {
         max-width: 100%;
-        overflow-x: hidden;
+        
     }
        header
     {
@@ -277,7 +283,7 @@ transform: none;
         
     }
     #filtreText { 
-        font-weight: 10px;
+        font-size: 10px;
        
     }
     .filtreLink
@@ -314,7 +320,7 @@ transform: none;
 
     .P ,.H {
         width: 100%;
-        padding: 3;
+        padding: 3%;
         
     }
 .P , .H img
@@ -349,7 +355,7 @@ transform: none;
 
     #bloc2 .stars
     {
-        padding: 37px;
+        padding: 28px;
     }
 #bloc2 figure img 
 {
@@ -389,7 +395,7 @@ transform: none;
     }
 footer 
 {
-    height: 310px;
+    height: auto;
 }
     footer #piedpage
     {
@@ -416,7 +422,6 @@ width: 200px;}
 @media (min-width:800px) and (max-width:966px)
 {
 html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
+        max-width: 100%
+}
 }
