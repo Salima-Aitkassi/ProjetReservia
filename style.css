@@ -49,7 +49,7 @@ nav
 {
     display: flex;
     justify-content: space-between;   
-    width: 20%;
+    width: 15%;
     text-align: right;
  
 }
@@ -339,7 +339,7 @@ background-color: #f2f2f2;
 }
 .bloc1 figcaption 
 {
-    padding: 1%;
+        padding: 1% 0 3% 0;
 }
 
 .bloc1 p
@@ -520,8 +520,8 @@ flex-direction: column;}*/
 
 #bloc3 .photo img
 {
-    height: 90%;
-    padding-bottom: 5px;
+    height: 89%;
+    padding-bottom: 6px;
 }
 
 
