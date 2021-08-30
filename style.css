@@ -1,9 +1,3 @@
-/*html , body
-{
-    height: 100%;
-    padding: 0%;
-    margin:0%;
-}*/
 *,::before,::after{
 
     margin: 0;
@@ -23,6 +17,7 @@ margin-right: auto;
 margin-left: auto;}
 
 /* Bannière */
+
 header
 { display: flex;
     align-items: center;
@@ -84,38 +79,7 @@ p
     padding: 1%;
 }
 
-/*Ma Police
-
-@font-face {
-    font-family: 'ralewaythin_italic';
-    src: url('Ralewaykit/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('Ralewaykit/raleway-italic-variablefont_wght-webfont.woff') format('woff');
-   
-}
-
-@font-face {
-    font-family: 'ralewaythin';
-    src: url('Ralewaykit/raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('Ralewaykit/raleway-variablefont_wght-webfont.woff') format('woff');
-         
-@font-face {
-    font-family: 'ralewayblack';
-    src: url('raleway-black-webfont.woff2') format('woff2'),
-         url('raleway-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ralewayblack';
-    src: url('raleway-black-webfont.woff2') format('woff2'),
-         url('raleway-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-   */
+/*Ma Police */
 
    @font-face {
     font-family: 'ralewayregular';
