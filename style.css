@@ -79,7 +79,7 @@ p
     padding: 1%;
 }
 
-/*Ma Police */
+/*Ma Police  */
 
    @font-face {
     font-family: 'ralewayregular';
@@ -370,9 +370,11 @@ object-fit: cover;
 
 
 }
+
+
 #bloc2 .stars
 {
-    padding: 35px;
+    padding-top: 20%;
 }
 
 /*.icon i
