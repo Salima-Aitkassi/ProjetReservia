@@ -88,13 +88,14 @@ input
         margin-left: 2%;
         display: flex;
     }
+#filtres i{padding: 4% 0 0 5%; }
 
 .ecofam 
 {
     width: 55%;
     }
 #info i.fas.fa-info
-{ width: 30%;
+{ width: 12%;
 padding: 4% 4% 4% 5%;}
 
  #Resultat 
@@ -133,6 +134,11 @@ padding: 4% 4% 4% 5%;}
 .P , .H img
 
 { object-position: center;
+    margin: 0;
+}
+.H h2 { 
+    font-size: 15px;
+    padding-left: 20px;
 }
 
 .bloc1
@@ -164,7 +170,7 @@ padding: 4% 4% 4% 5%;}
     }
 #bloc2 figure img 
 {
-    height: 101px;
+    height: 140px;
     }
 section figure img 
 {
@@ -177,9 +183,12 @@ section figure img
 
 #bloc2 figure 
 {
-    height: 115px;
+    height: 151px;
+    width: 90%;
         
     }
+
+#Activites h2{ padding-top: 760px;}    
 
 #bloc3 
 {
@@ -246,6 +255,7 @@ footer .blocfoot h3
 html, body 
 {
     max-width: 100%;
+    
         
 }
 header
