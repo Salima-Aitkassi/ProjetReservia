@@ -2,8 +2,9 @@
 @media (max-width:320px)
 {
 html, body {
-        width: 100%;
-        overflow-x:none;
+        width: 90%;
+        margin: 0;
+    
     }
 header
     {
@@ -88,6 +89,8 @@ input
         margin-left: 2%;
         display: flex;
     }
+
+
 #filtres i{padding: 4% 0 0 5%; }
 
 .ecofam 
@@ -254,13 +257,15 @@ footer .blocfoot h3
 {
 html, body 
 {
-    max-width: 100%;
+    width: 100%;
+    margin: 0;
     
         
 }
 header
 {
     flex-wrap: wrap;
+    width: 98%;
         
 
 }
@@ -333,13 +338,15 @@ input
     }
 .filtreLink
 {
-    width: 60%;
+    width: 55%;
     margin: 5px;
     }
     #filtres i 
     { 
-        padding: 2% 0% 0% 2%;
+        padding: 3% 0% 0% 3%;
     }
+
+#info i .fas.fa-info { padding: 3%;}    
 .ecofam 
 {
     width: 40%;
@@ -410,7 +417,7 @@ input
 #bloc2 figure 
 {
     width: 95%;
-    height: 115px;
+    height: 117px;
     }
 
 #bloc2 .stars
@@ -423,7 +430,9 @@ input
 }
 section figure img 
 {
-    height: 100px;
+    height: 106px;
+    padding-top: 1.5px;
+    
 }    
 .P .icon h2
 {

@@ -4,6 +4,7 @@
     padding: 0.1%;
     box-sizing: border-box;
 
+
 }
 
  html, body {
@@ -345,6 +346,7 @@ flex-direction:column;
 width:100%;
 border-radius: 20px;
 background-color: #f2f2f2;
+height: 660px;
 
 
 }
@@ -467,7 +469,7 @@ padding-bottom: 20px;}
 }
 
 section h2 
-{ padding: 1em 0 0 1em ;
+{ padding: 1px 0 0 1em ;
 }
 
 .P .icon h2
@@ -505,6 +507,7 @@ font-weight: bold;
 .H h2
 {
         padding-left: 30px;
+        padding-top: 15px;
 }
 
 .H h5
@@ -513,6 +516,7 @@ font-weight: bold;
     font-size: 13px; 
     padding-left: 32px;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 /* Partie Activités à Marseille */
 #Activites h2
